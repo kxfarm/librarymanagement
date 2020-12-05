@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:text="My Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtname1"
+                android:hint="Your Name"
+                android:fontFamily="serif"
+                android:background="@drawable/edittextwhite"
+                android:textAlignment="center"
+                android:editable="false" />
+
+            <TextView
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/txtmail1"
+                android:hint="Email"
+                android:fontFamily="serif"
+                android:background="@drawable/edittextwhite"
+                android:textAlignment="center"
+                android:editable="false" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtphone1"
+                android:hint="Phone Number"
+                android:background="@drawable/edittextwhite"
+                android:textAlignment="center"
+                android:editable="false" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="NIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtnic1"
+                android:hint="NIC Number"
+                android:fontFamily="serif"
+                android:background="@drawable/edittextwhite"
+                android:textAlignment="center"
+                android:editable="false" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.06" />
+
+            <Button
+                android:id="@+id/btnupdateuser"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="Click to Update"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="9dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

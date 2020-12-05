@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "794431201282",
+    "firebase_url": "https://library-bbed4.firebaseio.com",
+    "project_id": "library-bbed4",
+    "storage_bucket": "library-bbed4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794431201282:android:f4c6df0af8ca9ae70e071b",
+        "android_client_info": {
+          "package_name": "com.example.librarymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794431201282-v42j5ecmsa0d1rv5qo4ov1jsqvh6sh83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.librarymanagement",
+            "certificate_hash": "4734eb2da4a79aa322a901822da7fe6edb3396c7"
+          }
+        },
+        {
+          "client_id": "794431201282-1ueupolorgge11uuqu5ng6d2t7kgh0g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4HiW_SEe-UIEWVm8nUO6OD1dP_IysJzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794431201282-1ueupolorgge11uuqu5ng6d2t7kgh0g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

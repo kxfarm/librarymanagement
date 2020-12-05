@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">LibraryManagement</string>
+    <string name="open">Open</string>
+    <string name="close" >Close</string>
+
+    <string-array name="rack">
+        <item> R-1</item>
+        <item> R-2</item>
+        <item> R-3</item>
+        <item> R-4</item>
+
+    </string-array>
+    <string-array name="shelf">
+        <item> S-1</item>
+        <item> S-2</item>
+        <item> S-3</item>
+        <item> S-4</item>
+        <item> S-5</item>
+        <item> S-6</item>
+
+    </string-array>
+
+    <string-array name="Location">
+        <item> R-1 / S-1 </item>
+        <item> R-1 / S-2 </item>
+        <item> R-1 / S-3 </item>
+        <item> R-1 / S-4 </item>
+        <item> R-1 / S-5 </item>
+        <item> R-1 / S-6 </item>
+        <item> R-2 / S-1 </item>
+        <item> R-2 / S-2 </item>
+        <item> R-2 / S-3 </item>
+        <item> R-2 / S-4 </item>
+        <item> R-2 / S-5 </item>
+        <item> R-2 / S-6 </item>
+        <item> R-3 / S-1 </item>
+        <item> R-3 / S-2 </item>
+        <item> R-3 / S-3 </item>
+        <item> R-3 / S-4 </item>
+        <item> R-3 / S-5 </item>
+        <item> R-3 / S-6 </item>
+        <item> R-4 / S-1 </item>
+        <item> R-4 / S-2 </item>
+        <item> R-4 / S-3 </item>
+        <item> R-4 / S-4 </item>
+        <item> R-4 / S-5 </item>
+        <item> R-4 / S-6 </item>
+
+    </string-array>
+
+    <string-array name="Category">
+        <item> Programming R1 </item>
+        <item> Business R2 </item>
+        <item> History R3 </item>
+        <item> Medical R4</item>
+        <item> Math and Science R5 </item>
+    </string-array>
+</resources>

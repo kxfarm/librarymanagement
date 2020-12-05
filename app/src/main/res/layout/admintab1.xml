@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_admin__ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:text="Add New Book"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textAlignment="center" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtbookID"
+                android:layout_weight="1.31"
+                android:hint="Book ID"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/edittext"
+                android:paddingStart="5dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtbookname"
+                android:layout_weight="1.31"
+                android:hint="Book Name"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/edittext"
+                android:paddingStart="5dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:text="Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/spincategory"
+                android:entries="@array/Category"
+                android:background="@drawable/edittext" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:text="Book Location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="166dp"
+                android:layout_height="40dp"
+                android:id="@+id/spinlocation"
+                android:entries="@array/Location"
+                android:layout_weight="0.39"
+                android:background="@drawable/edittext"
+                android:clickable="true" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:text="Insert"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btnaddbook"
+                android:background="@android:color/holo_blue_light"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

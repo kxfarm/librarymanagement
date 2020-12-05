@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_user_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_user_ui">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/drawerlayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TabHost
+            android:layout_width="200dip"
+            android:layout_height="300dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tabhost1"
+            android:textAlignment="textStart">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"/>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <include android:id="@+id/tab1"
+                        layout="@layout/usertab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        </include>
+                    <include
+                        android:id="@+id/tab2"
+                        layout="@layout/usertab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </include>
+                    <include
+                        android:id="@+id/tab3"
+                        layout="@layout/usertab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </include>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

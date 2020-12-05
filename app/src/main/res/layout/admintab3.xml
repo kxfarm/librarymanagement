@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_admin__ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <TextView
+                android:text="Search Borrowed Books Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:hint="Book ID"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="72dp"
+                android:id="@+id/txtsbookid"
+                android:background="@drawable/edittext"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="666dp"
+                android:layout_below="@+id/txtsbookid"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="63dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtsname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextwhite"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIC NO"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/txtsnic"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextwhite"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+                <TextView
+                    android:id="@+id/textViewPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/txtsphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextwhite"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Borrowed Date"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtsBD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextwhite"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Return Date"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtsRD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextwhite"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/btnsreturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:text="Returned"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <Button
+                android:text="Search"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/btnsearchborrow"
+                android:background="@android:color/holo_blue_light"
+                android:layout_alignTop="@+id/txtsbookid"
+                android:layout_alignEnd="@+id/textView31" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
